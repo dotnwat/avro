@@ -1,3 +1,3 @@
-project('avro-cpp', 'cpp', default_options: ['cpp_std=c++11'])
+project('avro-cpp', 'cpp')
 
 subdir('lang/c++')
