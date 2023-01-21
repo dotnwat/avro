@@ -32,7 +32,8 @@ sources = files(
   'impl/json/JsonIO.cc',
   'impl/json/JsonDom.cc',
   'impl/Resolver.cc',
-  'impl/Validator.cc')
+  'impl/Validator.cc',
+  'impl/CustomAttributes.cc')
 
 headers = files(
   'api/AvroParse.hh',
@@ -65,7 +66,8 @@ headers = files(
   'api/ValidSchema.hh',
   'api/Validator.hh',
   'api/Writer.hh',
-  'api/Zigzag.hh')
+  'api/Zigzag.hh',
+  'api/CustomAttributes.hh')
 
 buffer_headers = files(
   'api/buffer/Buffer.hh',
