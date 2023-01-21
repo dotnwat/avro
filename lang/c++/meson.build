@@ -1,7 +1,7 @@
 boost = dependency('boost', modules : ['iostreams'])
 deps = [boost]
 
-cpp_args = ['-Wno-non-virtual-dtor']
+cpp_args = ['-Wno-non-virtual-dtor', '-Wno-inconsistent-missing-override']
 snappy = dependency('snappy', required: false)
 if snappy.found()
   deps += [snappy]
